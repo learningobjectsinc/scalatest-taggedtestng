@@ -108,9 +108,10 @@ object ScalatestBuild extends Build {
     resolvers += "Sonatype Public" at "https://oss.sonatype.org/content/groups/public",
     libraryDependencies ++= scalaLibraries(scalaVersion.value),
     publishTo <<= version { v: String =>
-      val nexus = "https://oss.sonatype.org/"
-      if (v.trim.endsWith("SNAPSHOT")) Some("publish-snapshots" at nexus + "content/repositories/snapshots")
-      else                             Some("publish-releases" at nexus + "service/local/staging/deploy/maven2")
+//      val nexus = "https://oss.sonatype.org/"
+//      if (v.trim.endsWith("SNAPSHOT")) Some("publish-snapshots" at nexus + "content/repositories/snapshots")
+//      else                             Some("publish-releases" at nexus + "service/local/staging/deploy/maven2")
+      Some("Lo Pub Maven" at "https://learningobjects.jfrog.io/learningobjects/lo-pub-mvn/")
     },
     publishMavenStyle := true,
     publishArtifact in Test := false,
@@ -149,7 +150,7 @@ object ScalatestBuild extends Build {
           </developer>
         </developers>
       ),
-    credentials += getNexusCredentials,
+    credentials += Credentials(Path.userHome / ".sbt" / "lomaven.credentials"),
     pgpSecretRing := file(getGPGFilePath),
     pgpPassphrase := getGPGPassphase
   )
