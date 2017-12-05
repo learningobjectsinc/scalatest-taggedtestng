@@ -154,11 +154,18 @@ trait TestNGSuiteLike extends Suite { thisSuite =>
 
   // This seems wrong. Should ask TestNG if possible, but not sure that's even possible. Anyway some tests
   // rely on this behavior that used to be inherited, but is no more.
-  override def testNames: Set[String] = yeOldeTestNames
+
+  // MH: To run tagged tests I must return the names of all tests, so add a crude check for any method annotated Test
+  override def testNames: Set[String] = yeOldeTestNames ++
+    this.getClass.getMethods.filter(_.getAnnotations.exists(_.annotationType.getSimpleName == "Test")).map(_.getName)
+
+  // MH: Scalatest expects very specific signatures; the TestNG providers don't meet those signatures so fall back
+  // to simple name-based matching
+  private[this] def getMethodForTestName(testName: String) = this.getClass.getMethods.filter(_.getName == testName).head
 
   private def getTags(testName: String) =
     for {
-      a <- Suite.getMethodForTestName(thisSuite, testName).getDeclaredAnnotations
+      a <- getMethodForTestName(testName).getDeclaredAnnotations
       annotationClass = a.annotationType
       if annotationClass.isAnnotationPresent(classOf[TagAnnotation])
     } yield annotationClass.getName
@@ -166,8 +173,9 @@ trait TestNGSuiteLike extends Suite { thisSuite =>
   override def tags: Map[String, Set[String]] = {
     val testNameSet = testNames
 
+    // MH: don't exclude untagged methods because we next apply the class annotation
     val testTags = Map() ++
-      (for (testName <- testNameSet; if !getTags(testName).isEmpty)
+      (for (testName <- testNameSet)
         yield testName -> (Set() ++ getTags(testName)))
 
     Suite.autoTagClassAnnotations(testTags, this)
@@ -230,7 +238,11 @@ trait TestNGSuiteLike extends Suite { thisSuite =>
     val tagsToInclude =
       filter.tagsToInclude match {
         case None => Set[String]()
-        case Some(tti) => tti
+        case Some(tti) =>
+          // MH: TestNG will not run any tests if we ask for tagged tests, so we look to see if this class
+          // matches the requested tag and if so execute this entire suite, otherwise execute nothing.
+          val anyMatch = this.getClass.getAnnotations.map(_.annotationType.getName).exists(tti.contains)
+          if (anyMatch) Set.empty[String] else Set("NeverEver")
       }
     val tagsToExclude = filter.tagsToExclude
 

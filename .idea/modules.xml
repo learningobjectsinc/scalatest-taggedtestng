@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-test.iml" filepath="$PROJECT_DIR$/.idea/modules/common-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/common-test-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonTestJS.iml" filepath="$PROJECT_DIR$/.idea/modules/commonTestJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonTestJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/commonTestJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples-build.iml" filepath="$PROJECT_DIR$/.idea/modules/examples-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examplesJS.iml" filepath="$PROJECT_DIR$/.idea/modules/examplesJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examplesJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/examplesJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genContainTests1.iml" filepath="$PROJECT_DIR$/.idea/modules/genContainTests1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genContainTests1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genContainTests1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genContainTests2.iml" filepath="$PROJECT_DIR$/.idea/modules/genContainTests2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genContainTests2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genContainTests2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genEmptyTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genEmptyTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genEmptyTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genEmptyTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genGenTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genGenTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genGenTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genGenTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests1.iml" filepath="$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests2.iml" filepath="$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genInspectorsShorthandsTests2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genInspectorsTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genInspectorsTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genInspectorsTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genInspectorsTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genLoneElementTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genLoneElementTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genLoneElementTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genLoneElementTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests1.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests2.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests3.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests3-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests3-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests4.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genMustMatchersTests4-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genMustMatchersTests4-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests1.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests2.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests3.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests3-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests3-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests4.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests4-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests4-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests5.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genRegularTests5-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genRegularTests5-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genSortedTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genSortedTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genSortedTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genSortedTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genTablesTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genTablesTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genTablesTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genTablesTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genTheyTests.iml" filepath="$PROJECT_DIR$/.idea/modules/genTheyTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/genTheyTests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/genTheyTests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gentests.iml" filepath="$PROJECT_DIR$/.idea/modules/gentests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gentests-build.iml" filepath="$PROJECT_DIR$/.idea/modules/gentests-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalactic.iml" filepath="$PROJECT_DIR$/.idea/modules/scalactic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalactic-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalactic-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalactic-test.iml" filepath="$PROJECT_DIR$/.idea/modules/scalactic-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalactic-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalactic-test-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticJS.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticMacro.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticMacro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticMacro-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticMacro-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticMacroJS.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticMacroJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticMacroJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticMacroJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticTestJS.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticTestJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalacticTestJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalacticTestJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatest.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatest-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatest-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatest-test.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatest-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatest-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatest-test-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestApp.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestApp-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestApp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestAppJS.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestAppJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestAppJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestAppJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestJS.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestTestJS.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestTestJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatestTestJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatestTestJS-build.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common-test" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/common-test.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/examples" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/examples.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/gentests" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/project" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalactic" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalactic-macro" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalactic-macro.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalactic-test" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalactic-test.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalactic.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalatest" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalatest-app.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalatest-test" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalatest-test.js" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/scalatest.js" vcs="svn" />
+  </component>
+</project>

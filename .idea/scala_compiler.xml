@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="scalatestApp,common-test,commonTestJS,examples,examplesJS,gentests,genContainTests1,genContainTests2,genEmptyTests,genGenTests,genInspectorsTests,genInspectorsShorthandsTests1,genInspectorsShorthandsTests2,genLoneElementTests,genRegularTests1,genRegularTests2,genRegularTests3,genRegularTests4,genRegularTests5,genSortedTests,genTablesTests,genTheyTests,genMustMatchersTests1,genMustMatchersTests2,genMustMatchersTests3,genMustMatchersTests4,scalactic,scalacticMacro,scalacticMacroJS,scalactic-test,scalacticTestJS,scalacticJS,scalatest,scalatestAppJS,scalatest-test,scalatestTestJS,scalatestJS" />
+  </component>
+</project>
