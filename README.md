@@ -13,3 +13,4 @@ Then I published scalactic and scalatest:
 sbt
 > ; scalactic/publish ; scalatest/publish
 ```
+
